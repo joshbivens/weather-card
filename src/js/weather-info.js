@@ -22,5 +22,3 @@ $(document).ready(function() {
 		
 	}, "json");
 });
-
-//var $temp = $(".temp").html(temp + "&#176");
