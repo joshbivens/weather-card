@@ -10,10 +10,38 @@ body {
 }
 
 .card {
-	height: 300px;
-	width: 450px;
+	height: 250px;
+	width: 500px;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: space-around;
+	border-radius: 5px;
 	background: #FFF;
+}
+
+.icon {
+	float: left;
+	height: 200px;
+	width: 150px;
+	background: lightcoral;
+}
+
+.info {
+	float: right;
+	height: 200px;
+	width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: cadetblue;
+	span {
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+}
+
+.temp {
+	font-size: 32px;
+	font-weight: 400;
 }
