@@ -1,12 +1,12 @@
 $(document).ready(function() {
-	var zip = "87122,us"
-	var key = "52965110eb4daf6fc4842ebf4e9207aa";
-	var uri = "http://api.openweathermap.org/data/2.5/weather?q=" + zip + "&units=imperial&APPID=" + key;
+	var zip = "87122,us",
+	key = "52965110eb4daf6fc4842ebf4e9207aa",
+	uri = "http://api.openweathermap.org/data/2.5/weather?q=" + zip + "&units=imperial&APPID=" + key;
 	
 	
 	$.get(uri, function(r) {
-		var currentTemp = Math.floor(r.main.temp);
-		var currentWeather = r.weather[0].id;
+		var currentTemp = Math.floor(r.main.temp),
+		currentWeather = r.weather[0].id;
 		
 		$(".temp").html(currentTemp + "&#176");
 		
@@ -19,8 +19,6 @@ $(document).ready(function() {
 		} else {
 			$(".icon").append("<i class='fa fa-coffee fa-4x'></i>");
 		}
-		
-		console.log(currentWeather);
 		
 	}, "json");
 });
