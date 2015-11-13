@@ -8,8 +8,8 @@ body {
   background: lightblue; }
 
 .card {
-  height: 200px;
-  width: 350px;
+  height: 300px;
+  width: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
