@@ -1,3 +1,16 @@
-p {
-  color: #28aadc;
-  font-weight: 700; }
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  background: lightblue; }
+
+.card {
+  height: 200px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFF; }
