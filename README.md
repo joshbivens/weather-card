@@ -7,3 +7,5 @@ Technologies used:
 - SCSS
 - Zepto
 - Gulp
+
+[Codepen here](http://codepen.io/joshbivens/pen/NGeBXo)
