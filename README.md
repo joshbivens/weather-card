@@ -8,4 +8,4 @@ Technologies used:
 - Zepto
 - Gulp
 
-[Codepen here](http://codepen.io/joshbivens/pen/NGeBXo)
+[Codepen here](http://s.codepen.io/joshbivens/debug/XdpKZx)
